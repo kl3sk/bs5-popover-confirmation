@@ -1,13 +1,15 @@
 {
     "name": "bs5-popover-confirmation",
     "private": false,
-    "version": "1.0.0-beta1",
+    "version": "1.0.0-beta2",
+    "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build --emptyOutDir",
         "preview": "vite preview"
     },
     "devDependencies": {
+        "core-js": "^3.32.2",
         "sass": "^1.67.0",
         "vite": "^4.4.5",
         "@popperjs/core": "^2.11.8",
@@ -16,12 +18,12 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/main.mjs",
-    "module": "./dist/main.js",
+    "main": "dist/bs5-popover-confirmation.umd.cjs",
+    "module": "dist/bs5-popover-confirmation.js",
     "exports": {
         ".": {
-            "import": "./dist/my-lib.js",
-            "require": "./dist/my-lib.umd.cjs"
+            "import": "./dist/bs5-popover-confirmation.js",
+            "require": "./dist/bs5-popover-confirmation.umd.cjs"
         }
     },
     "dependencies": {},
