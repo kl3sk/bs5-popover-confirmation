@@ -3,4 +3,4 @@ import '../scss/styles.scss'
 
 import Confirmation from "./confirmation"
 
-new Confirmation()
+new Confirmation({html: true})
