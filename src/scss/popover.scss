@@ -1,0 +1,11 @@
+
+.popover-buttons {
+  padding: var(--bs-popover-header-padding-y) var(--bs-popover-header-padding-x);
+  margin-bottom: 0;
+  font-size: var(--bs-popover-header-font-size);
+  color: var(--bs-popover-header-color);
+  background-color: var(--bs-popover-header-bg);
+  border-top: var(--bs-popover-border-width) solid var(--bs-popover-border-color);
+  border-bottom-left-radius: var(--bs-popover-inner-border-radius);
+  border-bottom-right-radius: var(--bs-popover-inner-border-radius);
+}
