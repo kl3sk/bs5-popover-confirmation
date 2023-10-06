@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build --emptyOutDir",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "watch": "vite build --watch"
     },
     "devDependencies": {
         "core-js": "^3.32.2",
@@ -24,6 +25,10 @@
         ".": {
             "import": "./dist/bs5-popover-confirmation.js",
             "require": "./dist/bs5-popover-confirmation.umd.cjs"
+        },
+        "./dist/*.css": {
+            "import": "./dist/*.css",
+            "require": "./dist/*.css"
         }
     },
     "dependencies": {},
